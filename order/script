@@ -1,0 +1,2 @@
+$ configtxgen -profile TestTwoOrgsOrdererGenesis -outputBlock ./orderer.genesis.block
+$ configtxgen -profile TestTwoOrgsChannel -outputCreateChannelTx ./roberttestchannel.tx -channelID roberttestchannel
